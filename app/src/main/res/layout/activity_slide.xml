@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SlideActivity">
+
+    <com.example.text2.SlideMenu
+        android:id="@+id/slideMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<!--       菜单布局 -->
+        <include layout="@layout/layout_menu"/>
+<!--        主界面布局-->
+        <include layout="@layout/layout_main"/>
+    </com.example.text2.SlideMenu>
+<!--    <TextView-->
+<!--        android:id="@+id/tv_func_1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="跳转后界面"-->
+<!--        android:textSize="25sp"-->
+<!--        android:gravity="center"-->
+<!--        android:textColor="@color/purple_200"-->
+<!--        />-->
+</LinearLayout>

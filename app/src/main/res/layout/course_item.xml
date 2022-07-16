@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/background1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/finsih_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="风景图片"
+                android:textColor="#090808"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/finsih_contents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="99999999999999999999"
+                android:layout_marginTop="15dp"
+                android:textColor="#090808"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
